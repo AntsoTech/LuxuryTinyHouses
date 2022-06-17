@@ -1,6 +1,6 @@
 import React from 'react';
 
-const story = () => {
+const Story = () => {
     return (
         <section className='story'>
             
@@ -8,4 +8,4 @@ const story = () => {
     );
 };
 
-export default story;
+export default Story;

@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const values = () => {
+const Values = () => {
     return (
         <section className='values'>
             
@@ -9,4 +9,4 @@ const values = () => {
     );
 };
 
-export default values;
+export default Values;
