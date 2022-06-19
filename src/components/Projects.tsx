@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
-
   // Projects information
   const projectsData = [
     {
@@ -15,11 +14,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Pimprenelle',
+      title: 'Miro',
       description:
-        "La mobihouse est une création originale qui offre la fonctionnalité et le confort pour vivre au quotidien tout en étant au coeur de la nature.",
+        'La mobihouse est une création originale qui offre la fonctionnalité et le confort pour vivre au quotidien tout en étant au coeur de la nature.',
       url: '',
-      image: '../assets/images/tinyHouseProject2.jpeg',
+      image: '../assets/images/tinyhouse13.jpg',
     },
     {
       id: 3,
@@ -43,7 +42,7 @@ const Projects = () => {
       description:
         "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
       url: '',
-      image: '../assets/images/tinyHouseProject1.jpg',
+      image: '../assets/images/tinyHouse6.jpg',
     },
     {
       id: 6,
@@ -51,16 +50,40 @@ const Projects = () => {
       description:
         "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
       url: '',
-      image: '../assets/images/tinyHouseProject2.jpeg',
+      image: '../assets/images/tiny7.png',
     },
     {
       id: 7,
-      title: 'Colibri',
+      title: 'Rainforest',
       description:
         "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
       url: '',
-      image: '../assets/images/tinyHouseProject3.jpeg',
-    }
+      image: '../assets/images/tinyhouse8.jpg',
+    },
+    {
+      id: 8,
+      title: 'Rose',
+      description:
+        "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
+      url: '',
+      image: '../assets/images/tiny10.jpg',
+    },
+    {
+      id: 9,
+      title: 'Lakely',
+      description:
+        "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
+      url: '',
+      image: '../assets/images/tinyhouse12.jpg',
+    },
+    {
+      id: 10,
+      title: 'Carré noir',
+      description:
+        "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
+      url: '',
+      image: '../assets/images/tinyhouse14.jpg',
+    },
   ];
 
   return (
@@ -73,7 +96,8 @@ const Projects = () => {
           <figcaption className="concept__quote__author">Alain Leblay</figcaption>
         </blockquote>
         <div className="projects__section">
-          {projectsData.map((project) => <ProjectCard {...project}/> )}
+          {projectsData &&
+            projectsData.map((project) => <ProjectCard key={project.id} {...project} />)}
         </div>
       </section>
     </>

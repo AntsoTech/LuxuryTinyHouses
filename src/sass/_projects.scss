@@ -1,11 +1,13 @@
 .projects {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  background-color: beige;
+  z-index: 10;
 
-    &__section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin: auto;
-    }
+  &__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh;
+  }
 }
