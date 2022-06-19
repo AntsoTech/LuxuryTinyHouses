@@ -1,0 +1,11 @@
+.projects {
+    width: 100%;
+    height: auto;
+
+    &__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: auto;
+    }
+}

@@ -1,0 +1,45 @@
+.projectcard {
+  width: 50%;
+  height: 290px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  overflow: hidden;
+
+  &__title {
+    font-family: 'Nunito-SemiBold';
+    z-index: 2;
+    color: antiquewhite;
+    text-align: left;
+    width: 100%;
+    padding-left: 3%;
+  }
+
+  &__description {
+    font-family: 'Nunito-Light';
+    z-index: 1;
+    padding-left: 3%;
+  }
+
+  &__button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: wheat;
+    z-index: 1;
+    cursor: pointer;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+}
