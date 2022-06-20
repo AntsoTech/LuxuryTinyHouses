@@ -10,15 +10,15 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Concept />
-      <Projects />
-      <Values />
-      <Story />
-      <Contact />
-    </div>
+      <div className="App">
+        <Navbar />
+        <Header />
+        <Concept />
+        <Projects />
+        <Values />
+        <Story />
+        <Contact />
+      </div>
   );
 }
 

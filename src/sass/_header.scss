@@ -25,18 +25,16 @@
 
   &__image1{
     position: absolute;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 1;
     width: 100%;
-    position: fixed;
   }
 
   &__image2{
     position: absolute;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 3;
     width: 100%;
-    position: fixed;
   }
 
   &__baseline {
