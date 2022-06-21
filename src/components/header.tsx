@@ -17,7 +17,7 @@ const Header = () => {
         className="header__image1"
         style={{ transform: `translateY(${offSetY * 0.3}px)` }}
       />
-      <h1 className="header__baseline"  style={{ transform: `translateY(-${offSetY * 0.3}px)` }}>WELCOME HOME</h1>
+      <h1 className="header__baseline"  style={{ transform: `translateY(${offSetY * 1}px)` }}>WELCOME HOME</h1>
       <img
         src="../../assets/images/tinyhouse-forefront.png"
         alt=""

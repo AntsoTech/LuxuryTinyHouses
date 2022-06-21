@@ -30,8 +30,7 @@ const Concept = () => {
         </li>
         <li>
           {' '}
-          <img src="../../assets/icons/leaves.png" alt="" width={50} /> Built to resist
-          over the centuries and{' '}
+          <img src="../../assets/icons/leaves.png" alt="" width={50} /> Built to {' '}
           <span style={{ fontWeight: 700 }}>lower impact on nature</span> using most modern techniques{' '}
         </li>
       </div>
