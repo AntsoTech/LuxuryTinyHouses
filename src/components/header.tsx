@@ -6,27 +6,23 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    console.log(offSetY);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <header className="header">
-      {/* <video className="header__bgVideo" autoPlay loop muted>
-        <source src="../../assets/images/homePageVideo.mp4" />
-      </video> */}
       <img
         src="../../assets/images/tinyhouse6.jpg"
         alt=""
         className="header__image1"
-        style={{ transform: `translateY(${offSetY * 0.5}px)` }}
+        style={{ transform: `translateY(${offSetY * 0.3}px)` }}
       />
-      <h1 className="header__baseline"  style={{ transform: `translateY(${offSetY * 1.2}px)` }}>WELCOME HOME</h1>
+      <h1 className="header__baseline"  style={{ transform: `translateY(-${offSetY * 0.3}px)` }}>WELCOME HOME</h1>
       <img
-        src="../../assets/images/tinyhouse6-down.png"
+        src="../../assets/images/tinyhouse-forefront.png"
         alt=""
         className="header__image2"
-        style={{ transform: `translateY(${offSetY * 0.5}px)` }}
+        style={{ transform: `translateY(${offSetY * 0.3}px)` }}
       />
       <h2 className="header__conceptScroll">DÉCOUVRIR NOTRE CONCEPT</h2>
       <div className="header__arrowContainer">
@@ -34,7 +30,7 @@ const Header = () => {
           <img
             src="../../assets/images/arrow-down-circle.svg"
             alt="Découvrir le concept"
-            width="50vw"
+            width={30}
           />
         </a>
       </div>

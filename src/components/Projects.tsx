@@ -89,12 +89,12 @@ const Projects = () => {
   return (
     <>
       <section className="projects" id="projects">
-        <h1>NOS PROJETS PHARES</h1>
+        {/* <h1>NOS PROJETS PHARES</h1>
         <blockquote className="concept__quote">
           "On commence toujours un projet par la fin, quand on programme un GPS, on lui
           dit où l’on va, pas où l’on est."
           <figcaption className="concept__quote__author">Alain Leblay</figcaption>
-        </blockquote>
+        </blockquote> */}
         <div className="projects__section">
           {projectsData &&
             projectsData.map((project) => <ProjectCard key={project.id} {...project} />)}
