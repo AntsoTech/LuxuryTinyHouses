@@ -1,0 +1,110 @@
+.header {
+  height: 130vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &__image1{
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    width: 100%;
+  }
+
+  &__image2{
+    position: absolute;
+    object-fit: cover;
+    z-index: 3;
+    width: 100%;
+  }
+
+  &__baseline {
+    color: white;
+    opacity: 70%;
+    font-family: 'Anton', sans-serif;
+    font-size: 7.8rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    z-index: 2;
+    position: absolute;
+    top: 7%;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__conceptScroll {
+    color: #fff;
+    font-family: $typospecial;
+    font-size: 1rem;
+    text-align: center;
+    bottom: 10%;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    position: fixed;
+  }
+
+  &__arrowContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    height: 3vh;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    z-index: 4;
+    position: fixed;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+    &:hover {
+      animation-name: bounce;
+      -moz-animation-name: bounce;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
