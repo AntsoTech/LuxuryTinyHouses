@@ -1,10 +1,10 @@
 import './App.scss';
 import React from 'react';
-import Header from './components/header';
-import Navbar from './components/navbar';
-import Contact from './components/contact';
-import Concept from './components/concept';
-import Story from './components/story';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Contact from './components/Contact';
+import Concept from './components/Concept';
+import Story from './components/Story';
 import Values from './components/values';
 import Projects from './components/Projects';
 
