@@ -1,12 +1,12 @@
 import './App.scss';
 import React from 'react';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Contact from './components/Contact';
-import Concept from './components/Concept';
-import Story from './components/Story';
-import Values from './components/values';
-import Projects from './components/Projects';
+import Header from './components/Header.js';
+import Navbar from './components/Navbar.js';
+import Contact from './components/Contact.js';
+import Concept from './components/Concept.js';
+import Story from './components/Story.js';
+import Values from './components/values.js';
+import Projects from './components/Projects.js';
 
 function App() {
   return (
