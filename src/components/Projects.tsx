@@ -43,7 +43,7 @@ const Projects = () => {
       description:
         "La bulle est un cocon de nature luxueux qui permet de ne faire qu'un avec la nature. Sa grande chance, la baie vitrée courbée et enveleoppante.",
       url: '',
-      image: '/assets/images/tinyHouse6.jpg',
+      image: '/assets/images/tinyhouse6.jpg',
     },
     {
       id: 6,
