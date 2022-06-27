@@ -18,19 +18,19 @@ const Concept = () => {
       <div className="concept__values">
         <li>
           {' '}
-          <img src="../../assets/icons/forest.png" alt="" width={50} /> Crafted with the
+          <img src="/assets/icons/forest.png" alt="" width={50} /> Crafted with the
           most <span style={{ fontWeight: 700 }}>eco-friendly, natural </span> and
           sustainable materials{' '}
         </li>
         <li>
           {' '}
-          <img src="../../assets/icons/atom.png" alt="" width={50} />{' '}
+          <img src="/assets/icons/atom.png" alt="" width={50} />{' '}
           <span style={{ fontWeight: 700 }}>Based on science</span> to comply with climate
           and environment specificities{' '}
         </li>
         <li>
           {' '}
-          <img src="../../assets/icons/leaves.png" alt="" width={50} /> Built to {' '}
+          <img src="/assets/icons/leaves.png" alt="" width={50} /> Built to {' '}
           <span style={{ fontWeight: 700 }}>lower impact on nature</span> using most modern techniques{' '}
         </li>
       </div>

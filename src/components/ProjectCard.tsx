@@ -11,7 +11,7 @@ const ProjectCard = ({ id, title, description, image }: IProject) => {
       <div className='projectcard__paragraph'>
         <h2 className="projectcard__paragraph__title">{title}</h2>
         <p className="projectcard__paragraph__description"> {description}</p>
-        <button className="projectcard__paragraph__button">En savoir plus <img src="../assets/icons/right-arrow.png" width={15} alt="" /></button>
+        <button className="projectcard__paragraph__button">En savoir plus <img src="/assets/icons/right-arrow.png" width={15} alt="" /></button>
       </div>
     </div>
   );
