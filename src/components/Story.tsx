@@ -4,7 +4,7 @@ const Story = () => {
   return (
     <section className="story">
       <div className="story__image">
-        <img src="../../assets/images/woodstory.jpg" alt="" />
+        <img src="/assets/images/woodstory.jpg" alt="" />
       </div>
       <div className="story__title">Our story began with you !</div>
       <div className="story__text">

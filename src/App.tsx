@@ -1,24 +1,20 @@
 import './App.scss';
 import React from 'react';
-import Header from './components/Header.js';
-import Navbar from './components/Navbar.js';
-import Contact from './components/Contact.js';
-import Concept from './components/Concept.js';
-import Story from './components/Story.js';
-import Values from './components/values.js';
-import Projects from './components/Projects.js';
+import Concept from './components/Concept';
+import Header from './components/Header';
+import Projects from './components/Projects';
+import Story from './components/Story';
+import Values from './components/values';
 
 function App() {
   return (
-      <div className="App">
-        <Navbar />
-        <Header />
-        <Concept />
-        <Projects />
-        <Values />
-        <Story />
-        <Contact />
-      </div>
+    <div className="App">
+      <Header />
+      <Concept />
+      <Projects />
+      <Values />
+      <Story />
+    </div>
   );
 }
 
