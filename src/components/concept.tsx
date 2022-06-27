@@ -18,9 +18,9 @@ const Concept = () => {
       <div className="concept__values">
         <li>
           {' '}
-          <img src="/assets/icons/forest.png" alt="" width={50} /> Crafted with the
-          most <span style={{ fontWeight: 700 }}>eco-friendly, natural </span> and
-          sustainable materials{' '}
+          <img src="/assets/icons/forest.png" alt="" width={50} /> Crafted with the most{' '}
+          <span style={{ fontWeight: 700 }}>eco-friendly, natural </span> and sustainable
+          materials{' '}
         </li>
         <li>
           {' '}
@@ -30,8 +30,9 @@ const Concept = () => {
         </li>
         <li>
           {' '}
-          <img src="/assets/icons/leaves.png" alt="" width={50} /> Built to {' '}
-          <span style={{ fontWeight: 700 }}>lower impact on nature</span> using most modern techniques{' '}
+          <img src="/assets/icons/leaves.png" alt="" width={50} /> Built to{' '}
+          <span style={{ fontWeight: 700 }}>lower impact on nature</span> using most
+          modern techniques{' '}
         </li>
       </div>
     </section>
